@@ -1,5 +1,5 @@
 * {
-	font-family: Helvetica;
+	font-family: italic;
 	font-weight: normal;
 }
 
@@ -135,4 +135,48 @@ section {
 footer > p {
 	font-size: 12px;
 	line-height: 2;
+}
+
+.picture1 {
+  width: 118px;
+  height: 35px;
+  object-fit: none;
+	object-position: 0px 0px;
+  display:block;
+  margin:auto;
+  padding-bottom: 15px;
+}
+
+.picture2 {
+  width: 25px;
+  height: 40px;
+  object-fit: none;
+  object-position: -115px -50px;
+}
+
+.picture3 {
+  width: 25px;
+  height: 40px;
+  object-fit: none;
+  object-position: 0px -50px;
+
+}
+.picture4 {
+  width: 25px;
+  height: 40px;
+  object-fit: none;
+  object-position: -252px -50px;
+
+}
+
+.pictures_box {
+  display: flex;
+  margin-left: 10px;
+}
+
+.pictures_box h1 {
+  margin-top: 5px;
+  padding-right: 10px;
+  padding-left: 1px;
+  color: gray;
 }
