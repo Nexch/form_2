@@ -9,28 +9,48 @@
 </head>
 
 <body>
-  <div class="form_box">
-    <h2>Create an Intuit account</h2>
-    <h5>One account for everything Intuit, including Mint.</h5>
-    <a href="#">Learn more</a><br><br>
-        <form class="form1" action="#" method="post" >
-          <fieldset>
-            <legend></legend>
-            <label for="form_email">Email</label><br>
-            <input type="email" name="femail-address" required="required" ><br><br>
-            <label for="form_phone">Phone number(recomended)</label><br>
-            <input type="number" name="fphone_number" >
-            <p>Standard call, messaging or data rates may apply.</p>
-            <label for="form_pasword">Pasword</label><br>
-            <input type="password" name="fpasword" required="required" ><br><br>
-            <input class="csubmit"type="submit" name="submit" value="Create Account">
-          </fieldset>
-        </form>
-
+  <nav>
+    <div class="nav_box">
+      <h5>
+        Already have an Intuit account?
+        <br>
+        <a class="bluetext" href="#">I forgot my User ID or Password</a>
+      </h5>
+      <button class="bluebuttons" type="button">Sing in</button>
+    </div>
+  </nav>
+  <section class="center">
+    <a href="#"><img class="picture1" src="index.png" alt="title"></a>
+    <a href="#"><img class="picture2" src="index.png" alt="title"></a>
+    <div class="form_box center">
+      <h2>Create an Intuit account</h2>
+      <h5>One account for everything Intuit, including Mint.</h5>
+      <a class="bluetext" href="#">Learn more</a><br><br>
+      <form class="form1" action="#" method="post" target="_blank">
+        <fieldset>
+          <label for="form_email">Email</label><br>
+          <input type="email" name="femail-address" required="required"><br><br>
+        </fieldset>
+        <fieldset>
+          <label for="form_phone">Phone number(recomended)</label><br>
+          <input type="number" name="fphone_number">
+          <p>Standard call, messaging or data rates may apply.</p>
+        </fieldset>
+        <fieldset>
+          <label for="form_pasword">Pasword</label><br>
+          <input type="password" name="fpasword" required="required"><br><br>
+          <input class="csubmit bluebuttons" type="submit" name="submit" value="Create Account">
+        </fieldset>
+      </form>
+      <footer>
         <h5>By clicking Create account, you agree to our <br>
-        Terms and have read and acknowledge our Privacy <br>
-        Statement.</h5>
-  </div>
+          <a class="bluetext" href="#">Terms</a>
+          and have read and acknowledge our
+          <a class="bluetext" href="#">Privacy <br>
+            Statement.</a></h5>
+      </footer>
+    </div>
+  </section>
 </body>
 
 </html>

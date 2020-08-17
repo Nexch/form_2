@@ -1,24 +1,25 @@
 * {
  font-family: Arial;
+ font-weight: normal;
+}
+body {
+  background-color: #eceef1;
+  color: #4C4C4C;
+  margin: 0;
+  text-align: center;
 }
 
 .form_box {
-  border: 1px solid gray;
+  border: 1px solid #c7c7c7;
   background-color: white;
-  text-align: center;
-  width: 380px;
-  padding: 30px;
-
 }
+
 .form_box h5{
-  text-align: center;
   margin-bottom: 0;
 }
-.form_box p {
-  margin-top: 0;
-}
+
 .form_box a {
-  text-decoration: none;
+  font-size: 12px;
 }
 
 form {
@@ -30,15 +31,90 @@ input {
   box-sizing: border-box;
   border-radius: 4px;
   height: 30px;
-  border: 1px solid gray;
+  border: 1px solid #C1C5C8;
+}
 
+label {
+  font-size: 15px;
 }
 
 .csubmit {
   height: 35px;
-  background-color: #0077C5;
+}
+
+fieldset {
+  border: 0;
+}
+fieldset p {
+  font-size: 10px;
+  margin-top: 0;
+}
+
+nav {
+  height: 60px;
+  padding-right: 30px;
+  padding-top: 5px;
+}
+
+nav h5 {
+  margin-top: 5px;
+}
+
+.nav_box {
+  float: right;
+  display: flex;
+}
+
+.nav_box button {
+  height: 34px;
+  width: 80px;
+  border: 1px solid;
+  margin-top: 1px;
+  margin-left: 10px;
+}
+
+.center {
+  margin: auto;
+  padding: 30px;
+}
+
+.bluebuttons {
   color: white;
+  background-color: #0077C5;
   border-style: none;
   border-radius: 4px;
+}
 
+.picture1 {
+  width: 118px;
+  height: 35px;
+  object-fit: none;
+	object-position: 0px 0px;
+  display:block;
+  margin:auto;
+  padding-bottom: 15px;
+}
+
+.picture2 {
+  width: 320px;
+  height: 50px;
+  object-fit: none;
+  object-position: 0px -50px;
+  display:block;
+  margin:auto;
+}
+
+
+footer h5 {
+  font-size: 13px;
+}
+
+section {
+  width: 380px;
+  padding: 30px;
+}
+
+.bluetext {
+  color: #0077C5;
+  text-decoration: none;
 }
