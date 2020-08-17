@@ -16,7 +16,7 @@ example: https://accounts.intuit.com/signup.html?offering_id=Intuit.ifs.mint&nam
 
 ## Live Demo
 
-[Live Demo Link](https://nexch.github.io/form_2/)
+[Live Demo Link](https://nexch.github.io/form_2/index.html)
 
 ## Getting Started
 
