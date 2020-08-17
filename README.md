@@ -31,7 +31,7 @@ Having a computer and git working.
 
 ### Setup
 
-git clone https://github.com/Nexch/form_2/tree/forms1
+git clone https://github.com/Nexch/form_2.git
 
 ### Usage
 
